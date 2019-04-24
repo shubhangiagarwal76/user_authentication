@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>
+ADMIN LOGIN
+</title>
+
+
+
+</head>
+<body>
+	<h2> WELCOME ADMIN </h2><br><br>
+	<h4> SELECT THE PERSON YOU WANT TO MAIL TO </h4>
+	<input type="radio" name="user" id="user" value="A"> Admin<br>
+	<input type="radio" name="user" id="user" value="S"> Student<br>
+	<input type="radio" name="user" id="user" value="other"> Volunteer<br>
+	<form action="mailto:joohiagrawal@gmail.com" method="post" enctype="text/plain" >
+	
+FirstName:<input type="text" name="FirstName"	>
+Email:<input type="text" name="Email">
+<input type="submit" name="submit" value="Submit">
+
+<script>
+	var user= document.getElementById("user");
+	if(user== "A"){
+		
+	
+	This Mail Is Send to admin
+	
+</form>}
+else if(user== "S"){
+
+	
+	This Mail Is Send to Student
+</form>}
+else{
+	
+	This Mail Is Send to volunteer
+</form>}
+
+</script>
+
+
+	
+</body>
+</html>
