@@ -9,12 +9,11 @@ if ( username == "Shubhangi" && password == "Shubhi1@1"){
 alert("Login successful");
 if(user== "A")
 {
-	alert(user);
 	window.location = "admin.html"; // Redirecting to other page.
 }
 else if(user== "S")
 {	
-	alert(user);
+	
 	window.location= "student.html";
 }
 else
